@@ -1,8 +1,6 @@
-# wfn
+# Wrapper Function (wfn)
 
-A module that prepares Wrapper Functions.
-
-Ensures your wrapper has the same properties as the underlying function, such as `name` and `length`. When `toString()` is called on the wrapper function, the code of the original function is shown, together with a comment identifying the wrapper(s).
+Ensures that a wrapper function has the same properties as the underlying function, such as `name` and `length`. When `toString()` is called on the wrapper function, the code of the original function is shown, together with a comment identifying the wrapper(s).
 
 ## Installation
 
@@ -76,6 +74,6 @@ function original () {
 
 If this is something you absolutely don’t care about, and you only want properties like `name` and `length` copied, consider swapping out this module for [`copy-own`](https://github.com/lamansky/copy-own) so you have less overhead.
 
-## Related Modules
+## Related
 
-For more projects like this, check out the [xfn](https://github.com/lamansky/xfn) family of modules.
+For more projects like this, check out [@lamansky/fn](https://github.com/lamansky/fn).
